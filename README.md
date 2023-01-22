@@ -4,7 +4,7 @@ Ini adalah digital portofolio pertama saya.<br>
 
 ## Live Demo
 
-👉 **https://resume.pythonandvba.com/**
+👉 **https://ghandi-dev-myportofoilo-app-0xha2w.streamlit.app/**
 
 ## Requirements
 
