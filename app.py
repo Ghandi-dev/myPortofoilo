@@ -88,11 +88,10 @@ st.write('\n')
 st.subheader("Pendidikan")
 st.write("---")
 st.write(
-    """
-- 👩‍💻 STT Wastukancana Purwakarta, Teknik Informatika (2020 – Sekarang)
-- 👨‍🎓 SMA Negeri 1 Pasawahan, Jurusan IPA (2014 – 2017)
+    """👩‍💻 STT Wastukancana Purwakarta, Teknik Informatika (2020 – Sekarang)<br><br>
+👨‍🎓 SMA Negeri 1 Pasawahan, Jurusan IPA (2014 – 2017)
 """
-)
+,unsafe_allow_html=True)
 
 
 # --- Pengalaman kerja ---
@@ -101,17 +100,17 @@ st.subheader("Pengalaman Kerja")
 st.write("---")
 
 # --- 1
-st.write("- 🧑‍🔧", "**Operator produksi | PT. Astra Honda Motor | 2018 – 2020**")
+st.write("🧑‍🔧", "**Operator produksi | PT. Astra Honda Motor | 2018 – 2020**")
 st.write(
-    """- Melakukan pengecekan kondisi barang setengah jadi sesuai dengan standart produksi baik secara spec maupun size produk, menambahkan bahan atau material atau komponen berikutnya pada produk menjadi barang setengah jadi atau barang jadi, Mengirim barang produk tersebut ke proses produksi berikutnya.
+    """Melakukan pengecekan kondisi barang setengah jadi sesuai dengan standart produksi baik secara spec maupun size produk, menambahkan bahan atau material atau komponen berikutnya pada produk menjadi barang setengah jadi atau barang jadi, Mengirim barang produk tersebut ke proses produksi berikutnya.
 """
 )
 
 # --- 2
 st.write('\n')
-st.write("- 🧑‍🔧", "**Operator produksi | PT. YC Tech | 2022**")
+st.write("🧑‍🔧", "**Operator produksi | PT. YC Tech | 2022**")
 st.write(
-    """- Menyiapkan mesin yang akan digunakan untuk membuat outsole sepatu, kemudian mengirim outsole sepatu yang sudah jadi ke proses packing.
+    """Menyiapkan mesin yang akan digunakan untuk membuat outsole sepatu, kemudian mengirim outsole sepatu yang sudah jadi ke proses packing.
 """
 )
 
@@ -121,35 +120,35 @@ st.write('\n')
 st.subheader("Pengalaman Organisasi")
 st.write("---")
 st.write(
-    """- 🧑‍💼 Panitia Masa Bimbingan Mahasiswa Teknik Informatika STT Wastukancana Purwakarta ( 2021 dan 2022)
-- 🏕️ Ketua Pramuka SMA Negeri 1 Pasawahan ( 2016 – 2017 )
-- 🧑‍💼 OSIS SMA Negeri 1 Pasawahan
+    """🧑‍💼 Panitia Masa Bimbingan Mahasiswa Teknik Informatika STT Wastukancana Purwakarta ( 2021 dan 2022)<br><br>
+🏕️ Ketua Pramuka SMA Negeri 1 Pasawahan ( 2016 – 2017 )<br><br>
+🧑‍💼 OSIS SMA Negeri 1 Pasawahan
 
 """
-)
+,unsafe_allow_html=True)
 
 # --- Pengalaman Organisasi
 st.write('\n')
 st.subheader("Skill")
 st.write("---")
 st.write(
-    """- ✅ Java
-- ✅ PHP
-- ✅ Python
-- ✅ Codeigniter3
-- ✅ Mysql
-- ✅ Adobe Photoshop
-- ✅ Adobe Ilustrator
+    """✅ Java<br>
+✅ PHP<br>
+✅ Python<br>
+✅ Codeigniter3<br>
+✅ Mysql<br>
+✅ Adobe Photoshop<br>
+✅ Adobe Ilustrator<br>
 
 """
-)
+,unsafe_allow_html=True)
 
 # --- proyek saya 
 st.write('\n')
 st.subheader("Proyek Saya")
 st.write("---")
 for project, link in PROJECTS.items():
-    st.write(f"- [{project}]({link})")
+    st.write(f"[{project}]({link})")
 
 # --- Sertifikat
 sertif1 = Image.open(sertif1)
