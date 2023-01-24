@@ -23,5 +23,5 @@ st_lottie(lottie_hello, key="hello")
 col1,col2,col3 = st.columns(3)
 with col2:
     st_lottie(lottie_loading)
-time.sleep(3)
+time.sleep(5)
 switch_page("app")
