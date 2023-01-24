@@ -5,7 +5,7 @@ from PIL import Image
 
 
 # --- PATH SETTINGS ---
-current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
+current_dir = Path('portifolio').parent if "__file__" in locals() else Path.cwd()
 css_file = current_dir / "styles" / "main.css"
 resume_file = current_dir / "assets" / "CV.pdf"
 profile_pic = current_dir / "assets" / "profil.png"
@@ -159,7 +159,7 @@ st.subheader("Sertifikat")
 st.write("---")
 st.write("⭐ Fundamental SQL Using SELECT Statement")
 st.image(sertif1,"sertifikat Fundamental SQL Using SELECT Statement ")
-st.write("⭐ Python Fudamental for Data Science")
+st.write("⭐ Python Fundamental for Data Science")
 st.image(sertif2,"sertifikat Python Fudamental for Data Science ")
-st.write("⭐ R Fudamental for Data Science")
+st.write("⭐ R Fundamental for Data Science")
 st.image(sertif3,"sertifikat R Fudamental for Data Science ")
