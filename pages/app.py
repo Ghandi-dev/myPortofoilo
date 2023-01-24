@@ -26,7 +26,7 @@ SOCIAL_MEDIA = {
     "YouTube": "https://www.youtube.com/channel/UCyG-d5ve_p6aJ8aggggPLDA",
     "GitHub": "https://github.com/Ghandi-dev",
     "Instagram": "https://www.instagram.com/ghandi_02/",
-    "WhatsApp": "https://wa.me/625927532252",
+    "WhatsApp": "https://wa.me/6285927532252",
 }
 PROJECTS = {
     "🏆 Aplikasi Kredit Barang | PHP - Codeigniter3 ": "https://github.com/Ghandi-dev/AplikasiKreditBarang",
